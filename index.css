@@ -18,6 +18,7 @@ main{
     justify-content: center;
     grid-template-columns: auto auto ;
     grid-template-rows: 4;
+    margin-bottom: 3%;
 }
 
 input{
@@ -97,3 +98,118 @@ input:focus{
     grid-column: 1 / 2 span;
 
 }
+
+@media only screen and (max-width: 800px) {
+    input {
+        font-size: 20px;
+        height: 30px;
+        border-radius: 8px;
+        padding: 5px;
+        padding-left: 15px;
+        margin: 3%;
+    }
+    .agreeText{
+        margin-right: 25px;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    
+    .explaination{
+        text-align: left;
+        font-size: medium;
+    }
+    
+    .registerSpan{
+        background-color: #2196f3;
+        padding: 4px;
+        border-radius: 4px;
+        color: white;
+        font-size: large;
+    }
+    
+    .registerButton{
+        font-size: 30px;
+        padding: 18px 86px;
+        background-color: #2196f3;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    }
+    
+    .signInButton{
+        font-size: 30px;
+        padding: 18px 86px;
+        background-color: #4caf50;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    
+    }
+  }
+@media only screen and (max-width: 570px) {
+    input {
+        font-size: 13px;
+        height: 30px;
+        border-radius: 8px;
+        padding: 5px;
+        padding-left: 15px;
+        margin: 3%;
+    }
+    .agreeText{
+        margin-right: 25px;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    
+    .explaination{
+        text-align: left;
+        font-size: small;
+    }
+    
+    .registerSpan{
+        background-color: #2196f3;
+        padding: 4px;
+        border-radius: 4px;
+        color: white;
+        font-size: large;
+    }
+    
+    .registerButton{
+        font-size: 30px;
+        padding: 10px 46px;
+        background-color: #2196f3;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    }
+    
+    .signInButton{
+        font-size: 30px;
+        padding: 10px 46px;
+        background-color: #4caf50;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .registerButton{
+        font-size: 30px;
+        padding: 10px 26px;
+        background-color: #2196f3;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    }
+    
+    .signInButton{
+        font-size: 30px;
+        padding: 10px 26px;
+        background-color: #4caf50;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    
+    }
+  }
