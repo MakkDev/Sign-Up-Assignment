@@ -1,0 +1,99 @@
+*{
+    margin:0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#title{
+    font-size: 30px;
+}
+
+.form-info{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 4;
+}
+
+input{
+  font-size: 30px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 5px;
+  padding-left: 15px;
+  margin: 3%;
+}
+
+input::placeholder{
+    color: rgb(179, 177, 177)
+}
+
+input:focus{
+    outline: none !important;
+    border: 1px solid #2196f3;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.agreement{
+    display: flex;
+    align-items: center;
+}
+
+.agreeText{
+    margin-right: 25px;
+    font-weight: 600;
+    width: 70px;
+    font-size: 20px;
+}
+
+.explaination{
+    text-align: left;
+    font-size: large;
+}
+
+.registerSpan{
+    background-color: #2196f3;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+}
+
+.registerButton{
+    font-size: 30px;
+    padding: 18px 136px;
+    background-color: #2196f3;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+
+.signInButton{
+    font-size: 30px;
+    padding: 18px 136px;
+    background-color: #4caf50;
+    border-radius: 6px;
+    border: none;
+    color: white;
+
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+
+}
+.numberInput{
+    grid-column: 1 / 2 span ;
+    
+}
+
+.emailInput{
+    grid-column: 1 / 2 span;
+
+}
